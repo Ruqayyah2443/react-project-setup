@@ -1,0 +1,11 @@
+:root{
+    --color-primary: #17254E;
+    --color-secondary: #FF9E0E;
+
+    /* Padding */
+    --default-padding-left: 291.5px;
+    --default-padding-rigth: 291.5px;
+
+    --page-width: 1903px;
+
+}

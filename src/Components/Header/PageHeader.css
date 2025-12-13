@@ -1,0 +1,52 @@
+.page-header .banner{
+    background-color: var(--color-primary);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var( --default-padding-rigth) 0 var(--default-padding-left);
+    font-family: sora;
+}
+
+.banner__contact{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner__contact li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-right: 2px solid rgb(106, 106, 139);
+    gap: 12px;
+    color: white;
+    font-size: 17px;
+    padding: 0 19px;
+    /* height: 21px; */
+}
+
+.banner__contact li:last-child{
+    border: none;
+}
+
+.banner__social{
+    background-color: var(--color-secondary);
+    width: 183px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.banner__social li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+

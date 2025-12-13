@@ -1,0 +1,12 @@
+@import url(variable.css);
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+
+}

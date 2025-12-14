@@ -1,4 +1,6 @@
 import './PageHeader.css'
+import {Button} from "../Button/Button.jsx"
+import ArrowRigth from "../../assets/Icons/HeaderIcons/ArrowRigth.svg?react"
 export  const PageNavigation = ()=>{
     return(
         <nav className="nav">
@@ -13,9 +15,24 @@ export  const PageNavigation = ()=>{
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
+            {/* <div className="nav__action">
+                <Button variant="primary" size="sm" rounded="rounded" suffix={<ArrowRigth/>} radius="rounded-md">{"Create Account"}</Button>
+            </div> */}
+
             <div className="nav__action">
-                <button>Create Account</button>
+                <Button
+                    variant="primary"       
+                    size="lg"               
+                    radius="rounded-md"     
+                    rounded={true}          
+                    suffix={<ArrowRigth />}
+                >
+                    Create Account
+                </Button>
             </div>
+
+
+            
         </nav>
     )
 }

@@ -1,0 +1,34 @@
+/* @import url(../../themes/Global.css);
+.card {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+
+
+
+.card-category {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px;
+  cursor: pointer;
+}
+
+
+.card-course {
+  overflow: hidden;
+}
+
+
+.card-feature {
+  padding: 20px;
+  background: #f5f3ff;
+}
+
+.card-stat {
+  padding: 24px;
+  text-align: center;
+  background: #fde68a;
+} */

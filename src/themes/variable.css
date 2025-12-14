@@ -1,6 +1,20 @@
 :root{
-    --color-primary: #17254E;
-    --color-secondary: #FF9E0E;
+    --color-blue: #17254E;
+    --color-primary: #704FE6;
+    --accent-purple: #785DD7;
+
+    --color-secondary: #FFD25D;
+    --accent-yellow: #FEB65C;
+
+    --text-blue: #0E2A46;
+    --accent-blue:  #1F3061;
+    --transparent-purple: #E9E2FF;
+    --text-ash: #333931;
+ 
+;
+
+
+;
 
     /* Padding */
     --default-padding-left: 291.5px;

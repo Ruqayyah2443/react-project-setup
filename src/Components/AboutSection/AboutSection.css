@@ -1,0 +1,159 @@
+@import url(../../themes/Global.css);
+
+.about {
+  margin: 50px 0;
+}
+
+.about__container {
+  padding-left: var(--default-padding-left);
+  padding-right: var(--default-padding-rigth);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .about__images,
+.about__content{
+  flex: 0 0 50%;
+}  */
+
+.about__images {
+  position: relative;
+  padding-top: 240px;
+  flex: 0 0 47%;
+}
+
+
+.about__images img {
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.top-images {
+  position: absolute;
+  top: 0;
+  display: flex;
+  gap: 18px;
+  transform: translateX(-40px);
+
+}
+
+.image__girl {
+  width: 291px;
+  margin-top: -50px;
+  
+}
+
+.position {
+  position: relative;
+  width: 225px;
+  margin-top: 40px;
+  
+}
+
+.image__house {
+  width: 206px;
+  position: relative;
+  z-index: 2;
+}
+.dotted__square{
+  width: 225px;
+  position: absolute;
+  top: -51px;
+  left: 20%;
+  z-index: 1;
+}
+
+.image__main {
+  width: 100%;
+  max-width: 553px;
+  margin-top: 35px;
+  display: block;
+}
+
+.experience {
+  position: absolute;
+  top: 190px;
+  left: 180px;
+  width: 244px;
+  height: 234px;
+  background: var(--color-secondary);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 5px solid #fff;
+  z-index: 3;
+}
+
+.experience h2 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.experience p {
+  font-size: 25px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* -RIGHT SIDE - */
+
+.about__content {
+  /* flex: 0 0 calc(50% - 80px); */
+  flex: 0 0 53%;
+  display: flex;
+  flex-direction: column;
+}
+
+.badge {
+  width: fit-content;
+  padding: 6px 16px;
+  background: var(--transparent-purple);
+  color: var(--accent-purple);
+  border-radius: 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.about__content h1 {
+  font-size: 45px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--text-blue);
+  margin-bottom: 15px;
+}
+
+.description {
+  color: #333931;
+  line-height: 1.7;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+/* FEATURES */
+
+.features {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.feature h4 {
+  margin-bottom: 8px;
+  font-size: 17x;
+  font-weight: 800;
+  color: var(--text-blue);
+}
+
+.feature p {
+  font-size: 17px;
+  color: var(--text-blue);
+}
+
+
+.btn {
+  text-align: start;
+}

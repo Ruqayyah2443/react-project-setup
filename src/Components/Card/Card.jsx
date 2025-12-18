@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import "./card.css";
+import "./Card.css";
 export const Card = ({
   children,
   variant = "default",

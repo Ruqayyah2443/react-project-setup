@@ -1,4 +1,4 @@
-import "../../themes/global.css";
+import "../../themes/Global.css";
 import { PageHeader } from "../../Components/Header/PageHeader"
 import { HeroSection } from "../../Components/HeroSection/HeroSection.jsx"
 import {Categories} from "../../Components/Categories/Category.jsx"

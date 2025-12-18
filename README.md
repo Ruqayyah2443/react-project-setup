@@ -1,3 +1,118 @@
+#REACT / DOM ASSIGNMENT
+## React Hooks Notes
+Hooks
+Functions that allow state and other React features to be used in function components instead of class components.
+1. useState Hook: Used to create and manage state in a component.
+Uses:
+i. Store and update values over time
+ii. Manage multiple states or a single state object
+Key Points:
+1.	Returns a state value and a setter function
+2.	The state can be updated using the previous value
+3.	Object state updates must preserve existing properties
+2. useEffect Hook: Handles side effects in function components.
+Uses:
+i. Fetch data
+ii. Update the DOM
+iii. Handle subscriptions
+Key Points:
+1.	Runs after rendering
+2.	Dependency array controls when it runs
+3.	The cleanup function prevents memory leaks
+3. useRef Hook: Provides direct access to DOM elements.
+Uses:
+i. Focus inputs
+ii. Clear values
+iii. Access elements without re-rendering
+4. useCallback Hook: Prevents callback functions from being recreated unnecessarily.
+Uses:
+i. Pass stable functions to child components
+ii. Improve performance
+
+5. useMemo Hook: Stores results of expensive calculations.
+Uses:
+i. Avoid repeated calculations
+ii. Improve performance
+
+6. useContext Hook: Shares data across components without prop drilling.
+Uses:
+i. Manage shared or global state
+ii. Simplify data passing
+7. useReducer Hook: Manages complex state using actions and reducers.
+Uses:
+i. Handle multiple state changes
+ii. Alternative to external state libraries
+
+
+
+## JavaScript HTML DOM Elements Notes
+DOM Definition:
+The Document Object Model represents HTML elements as JavaScript objects, allowing manipulation of content, style, and structure.
+1. Finding HTML Elements
+
+Methods:
+1.	By Id: Returns a single element or null
+2.	By Tag Name: Returns a collection of elements
+3.	By Class Name: Returns elements with the same class
+4.	By CSS Selector: Selects elements using CSS rules
+5.	By Object Collections: Access built-in collections like forms and images
+2. Common HTML Object Collections
+• document.body
+• document.forms
+• document.images
+• document.links
+• document.head
+• document.scripts
+• document.title
+
+## React Component Interaction and State Management
+1. Components in React
+React applications are built from multiple components.
+Some components handle logic, while others only display data.
+2. Rendering Components
+React requires components to be wrapped in a single parent or fragment when rendering siblings.
+3. Parent Component Role
+The parent component:
+1.	Manages shared state
+2.	Passes data and functions to children
+4. Lifting State Up
+When multiple components need the same state, the state is moved to their closest common parent.
+5. Props Usage
+Props are used to pass:
+1.	Data
+2.	Functions for updating state
+This allows children to trigger actions without owning state.
+6. Component Responsibility
+1.	Parent components manage logic and state
+2.	Child components handle display and user interaction
+7. Reusable Components
+Reusable components:
+1.	Avoid hardcoding values
+2.	Receive data through props
+3.	Can be used in different contexts
+8. Handling User Input
+User input is handled by updating the state through events, allowing React to control the UI.
+9. Controlled Components
+A controlled component’s value is managed by React state.
+This ensures predictable behavior and easier validation.
+10. Side Effects in React
+Side effects include DOM access, browser updates, and external interactions.
+They are handled using the useEffect hook.
+11. State Placement
+State should be placed only where needed to avoid unnecessary re-renders and improve performance.
+Conclusion
+React promotes:
+1.	Component reusability
+2.	Shared state through lifting the state up
+3.	Controlled inputs
+4.	Clean separation of responsibilities
+These principles help build scalable and maintainable applications.
+
+
+
+
+
+
 <<<<<<< HEAD
 # React + Vite
 

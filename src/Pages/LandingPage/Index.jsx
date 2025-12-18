@@ -6,6 +6,7 @@ import { AboutSection } from "../../Components/AboutSection/AboutSection.jsx"
 import { FooterSection } from "../../Components/FooterSection/FooterSection.jsx"
 import { BlogPost } from "../../Components/BlogPost/BlogPost.jsx";
 import { DiscoverGain } from "../../Components/DiscoverGain/DiscoverGain.jsx";
+import InstructorSection from "../../Components/InstructorSection/InstructorSection.jsx";
 
 
 
@@ -23,6 +24,9 @@ export default function LandingPage(){
         </section>
         <section>
             <AboutSection/>
+        </section>
+        <section>
+            <InstructorSection/>
         </section>
         <section>
             <DiscoverGain/>

@@ -14,18 +14,34 @@ const gains = [
   {
     id: 1,
     title: "Start From Today",
-    text: "Join Our Training Courses & <br/> Build Your Skill.",
+    textLines: [
+    "Join Our Training Courses &",
+    "Build Your Skill."
+    ],
     image: CareerWoman,
     bg: "var(--color-primary)",
     bgImage: GianBg, 
+    button: {
+      label: "Join Now",
+      variant: "secondary",
+      suffix: <ArrowRigth />,
+    },
   },
   {
     id: 2,
     title: "Start From Today",
-    text: "Join Our Training Courses & Build Your Skill.",
+    textLines: [
+    "Join Our Training Courses &",
+    "Build Your Skill."
+    ],
     image: CareerMan,
     bg: "var(--color-secondary)",
     bgImage: GianBg, 
+    button: {
+      label: "Join Now",
+      variant: "primary",
+      suffix: <ArrowRigth />
+    },
   },
 ];
 export function DiscoverGain(){
@@ -49,7 +65,8 @@ export function DiscoverGain(){
                         <WaveBox/>
                     </div>
                 </div>
-                    <h2>Discover Your Gain</h2>
+                    <p className="top">Choose Your Career</p>
+                    <h2 className="discover-gain__header">Discover Your Gain</h2>
                     <div className="flex-gain">
                         {gains.map((item)=>(
                             <Card key={item.id} variant="gain" className="card-gain" 
@@ -62,13 +79,19 @@ export function DiscoverGain(){
                             }}>
                                 <div className="content">
                                     <h3>{item.title}</h3>
-                                    <p>{item.text}</p>
+                                    {item.textLines.map((line, index) => (
+                                        <p key={index}>{line}</p>
+                                    ))}
                                     
                                     <div className="btn">
-                                        <Button 
-                                        
-                                        variant="primary" size="lg" radius="rounded-md" rounded={true} suffix={<ArrowRigth />}>
-                                            Load 
+                                        <Button
+                                            variant={item.button.variant}
+                                            size="lg"
+                                            radius="rounded-md"
+                                            rounded
+                                            suffix={item.button.suffix}
+                                            >
+                                            {item.button.label}
                                         </Button>
                                     </div>
                                 </div>  

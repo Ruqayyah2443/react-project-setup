@@ -6,8 +6,9 @@
     padding-left: var(--default-padding-left);
     padding-right: var(--default-padding-right);
     padding-bottom: 10px;
-    margin-bottom: 81px;
-    margin-top: 120px;
+    /* margin-bottom: 81px; */
+    /* margin-top: 120px; */
+    background: #f1eeee;
 }
 .blog-header{
     margin: 0;
@@ -18,6 +19,7 @@
   padding: 15px;
   border-radius: 10px;
   font-size: 15px;
+  margin-top: 200px;
 }
 .btn-top{
     text-align: end;
@@ -55,6 +57,7 @@
 .card__flex{
     display: flex;
     gap: 20px;
+    margin-bottom: 119px;
 }
 
 .card-post img {
@@ -87,4 +90,5 @@
 } */
 .btn-post{
   align-self: self-start;
+  margin-bottom: 81px;
 }

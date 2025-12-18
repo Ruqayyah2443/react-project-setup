@@ -25,7 +25,7 @@ const blogs = [
     date: "21 April 2024",
     comments:  6,
     title: "velit esse cillum dolore eu fugiat nullapariatur. Excepteur sint occaecat cupidatat",
-     icon: <Calender/>,
+    icon: <Calender/>,
     icon1: <Comment/>,
   },
   {

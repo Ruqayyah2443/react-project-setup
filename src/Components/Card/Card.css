@@ -1,4 +1,4 @@
-/* @import url(../../themes/Global.css);
+@import url(../../themes/Global.css);
 .card {
   background: #ffffff;
   border-radius: 14px;
@@ -31,4 +31,13 @@
   padding: 24px;
   text-align: center;
   background: #fde68a;
-} */
+}
+
+.card-post{
+  background: #dcdfdc;
+  width: 424px;
+  height: 497px;
+  padding: 30px 30px 40px 30px;
+  display: flex;
+  flex-direction: column;
+}

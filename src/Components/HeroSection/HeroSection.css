@@ -1,22 +1,23 @@
-@import url(../../themes/Global.css);
+/* @import url(../../themes/Global.css); */
 
-.Hero {
+.hero {
   background-image: url('../../assets/images/HeroImg/HeroBg.png');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
-  /* padding: 60px 0; */
+  width: 100%;
+  max-width: 1903px;
+  margin: 0 auto;
+  padding-left: var(--default-padding-left);
  
 }
 
-.Hero__container {
+.hero__container {
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 46px;
-  padding-left: var(--default-padding-left);
-  max-width: 1903;
   max-height: 670px;
   position: relative;
 }
@@ -104,7 +105,7 @@
 .hero__badge {
   position: absolute;
   bottom: 30%;
-  right: 90%;
+  right: 92%;
   background: #fff;
   padding: 25px 35px 25px 25px;
   border-radius: 12px;
@@ -115,7 +116,6 @@
   flex-direction: column;
   justify-content: flex-start;
   z-index: 4;
-  /* width: 345px; */
 }
 
 /* .badge__text {

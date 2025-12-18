@@ -9,7 +9,7 @@ import ArrowRigth from "../../assets/Icons/HeaderIcons/ArrowRigth.svg?react";
 export function AboutSection() {
     return (
         <section className="about">
-            <div className="about__container">
+            {/* <div className="about__container"> */}
                 <div className="about__images">
                     <div className="top-images">
                         <img src={GirlImg} alt="" className="image__girl" />
@@ -65,7 +65,7 @@ export function AboutSection() {
                         </Button>
                     </div>
                 </div>
-            </div>
+            {/* </div> */}
         </section>
     )
 

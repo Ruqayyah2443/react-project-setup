@@ -2,6 +2,7 @@
     --color-blue: #17254E;
     --color-primary: #704FE6;
     --accent-purple: #785DD7;
+    --purple-icon: #af9eeb;
 
     --color-secondary: #FFD25D;
     --accent-yellow: #FEB65C;
@@ -10,11 +11,7 @@
     --accent-blue:  #1F3061;
     --transparent-purple: #E9E2FF;
     --text-ash: #333931;
- 
-;
 
-
-;
 
     /* Padding */
     --default-padding-left: 291.5px;

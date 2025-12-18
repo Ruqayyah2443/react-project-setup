@@ -2,29 +2,38 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 
 ul, li, section, div{
-    box-sizing: border-box;
-    /* margin: 0;
-    padding: 0; */
+  box-sizing: border-box;
+}
+*{
+   box-sizing: border-box;
 }
 
 
 
-body{
+html, body{
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
   margin: 0;
-  /* padding: 0; */
-
+  width: 100%;
 }
 
-body {
-  margin: 0;
-  font-family: "Sora", sans-serif;
-}
-
-/* ul,
+ul,
 ol {
   margin: 0;
   padding-left: 0;
   list-style: none;
+}
+
+/* .app-wrapper {
+  max-width: var(--page-width); 
+  margin: 0 auto;
+  width: 100%;
 } */
+/* .page__container {
+  width: clamp(320px, 95%, 1903px); 
+  margin: 0 auto;
+  padding-left: var(--default-padding-left);
+  padding-right: var(--default-padding-right);
+} */
+
+

@@ -10,8 +10,8 @@ import ArrowRigth from "../../assets/Icons/HeaderIcons/ArrowRigth.svg?react";
 
 export function HeroSection() {
     return (
-       <section className="Hero">
-        <div className="Hero__container">
+       <section className="hero">
+        <div className="hero__container">
             <div className="Hero-left">
                 <span className="Hero__subtitle"> WELCOME EDUNITY ONLINE COURSES</span>
                 <h1 className="hero__title">

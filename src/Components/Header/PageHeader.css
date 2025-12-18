@@ -1,11 +1,13 @@
-.page-header .banner{
+.banner{
     background-color: var(--color-blue);
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 var( --default-padding-rigth) 0 var(--default-padding-left);
-    font-family: sora;
+    /* width: clamp(320px, 95%, 1903px);  */
+    width: 100%;
+    max-width: 1903px;
 }
 
 .banner__contact{
@@ -54,11 +56,15 @@
     border: 1px solid red;
 } */
 
+/* ---Navigation Section-- */
+
 .nav{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 var( --default-padding-rigth) 0 var(--default-padding-left);
+    width: 100%;
+    max-width: 1903px;
     height: 85px;
 }
 
@@ -69,6 +75,8 @@
 
 .nav__menu {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   width: 683px;
   margin-right: 0;

@@ -1,0 +1,114 @@
+
+.discover-gain{
+  width: 100%;
+  max-width: 1903px; 
+  margin: 0 auto;
+  /* padding-left: var(--default-padding-left);
+  padding-right: var(--default-padding-right); */
+  position: relative;
+  overflow: hidden;
+   /* background-color: #ffffff; */
+}
+
+.discover-gain__inner {
+  padding-left: var(--default-padding-left);
+  padding-right: var(--default-padding-right);
+  box-sizing: border-box;
+}
+
+.foating-icon {
+  position: relative;
+  /* z-index: 2; */
+}
+
+/* Floating Icons */
+.foating-icon .dot,
+.foating-icon .wave,
+.foating-icon .circle,
+.foating-icon .flower,
+.foating-icon .wave-box {
+  position: absolute;
+  opacity: 0.6;
+  animation: float 6s ease-in-out infinite;
+  z-index: 1;
+}
+
+/* Example positions for icons */
+.foating-icon .dot {
+  top: 10%;
+  left: 5%;
+}
+
+.foating-icon .wave {
+  top: 20%;
+  right: 10%;
+}
+
+.foating-icon .circle {
+  bottom: 25%;
+  left: 20%;
+}
+
+.foating-icon .flower {
+  top: 40%;
+  left: 70%;
+}
+
+.foating-icon .wave-box {
+  bottom: 10%;
+  right: 15%;
+}
+
+
+.flex-gain{
+  display: flex;
+  gap: 20px;
+  /* position: relative; */
+  /* z-index: 2; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-gain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 16px;
+  overflow: hidden;
+  color: #ffffff;
+  position: relative;
+  width: 642px;
+  height: 356px;
+  background-size: cover;
+  background-position: center;
+  /* min-height: 320px; */
+}
+
+.content {
+  max-width: 40%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-gain .content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.card-gain .content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.card-gain .btn {
+  display: inline-block;
+}
+
+.card-gain img {
+  max-width: 60%;
+  object-fit: cover;
+}

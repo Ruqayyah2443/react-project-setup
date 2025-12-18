@@ -1,0 +1,137 @@
+
+.footer {
+  width: 100%;
+  max-width: 1903px;
+  background: #0a1f35;
+  color: #ccc;
+  padding-left: var(--default-padding-left);
+  padding-right: var(--default-padding-rigth);
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-top: 129px;
+  padding-bottom: 144px;
+}
+
+.footer__brand {
+  flex: 1 1 255px;
+}
+.footer__brand img{
+  width: 237px;
+  height: 54px;
+}
+
+
+.footer__brand h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer__brand p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.footer__socials span {
+  background: var(--transparent-purple);
+  padding: 6px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__column {
+  flex: 1 1 180px;
+}
+
+.footer__column h4 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.footer__gallery h4 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+
+
+.footer__column ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px; 
+}
+
+.footer__column li {
+  margin-bottom: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  line-height: 1.5;
+}
+
+
+.footer__gallery ul {
+  display: grid;
+  grid-template-columns: repeat(3, 85.66px);
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+/* .footer__gallery img {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+} */
+.footer__gallery img {
+  width: 85.66px;
+  height: 85.66px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.footer__bottom {
+  text-align: center;
+  font-size: 17px;
+  background: #222222;
+  padding-top: 15px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer__bottom p{
+  text-align: center;
+  font-size: 17px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+}
+.footer__bottom span{
+  color: var(--color-secondary);
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    flex-direction: column;
+  }
+}

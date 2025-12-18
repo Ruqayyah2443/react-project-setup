@@ -1,96 +1,131 @@
 @import url(../../themes/Global.css);
-.btn{
+
+.btn {
     border: none;
     border-radius: 5px;
     font-size: 0.75rem;
+    font-weight: 600;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 0.5em; /* spacing between text and icon */
-    padding: 8px 0 8px 10px; 
+    gap: 12px;
+    padding: 8px 8px 8px 20px;
     position: relative; 
-
-
 }
-.btn-primary{
+
+.btn-primary {
     background: var(--color-primary);
     color: #fff;
 }
 
-.btn-secondary{
+.btn-secondary {
     background: var(--color-secondary);
     color: #fff;
 }
 
-.btn-yellow{
+.btn-yellow {
     background: var(--accent-yellow);
     color: var(--text-blue);
 }
 
-.btn-xs{
+.btn-lightPurple {
+    background: var(--transparent-purple);
+    color: var(--accent-purple);
+}
+
+
+.btn-xs {
     width: 45px;
     height: 45px;
     padding: 0;
-}
-
-.btn-sm{
-    font-size: 0.3rem;
     justify-content: center;
-    gap: 0.5em;
-    padding: 0.5em 2.5em;
 }
 
-.btn-lg{
-    font-size: 0.75rem;
-    gap: 22px;
+.btn-sm {
+    font-size: 0.94rem;
+    gap: 10px;
+    padding: 10px 10px 10px 20px;
 }
 
-.btn-rounded-md{
+.btn-lg {
+    font-size: 0.94rem;
+    gap: 16px;
+    padding: 10px 10px 10px 28px;
+}
+
+.btn-rounded-md {
     border-radius: 50px;
-    justify-content: center;
 }
-.btn-rounded-full{
+
+.btn-rounded-full {
     border-radius: 50%;
 }
 
-.icon{
-    display: flex;
+.icon {
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     flex-shrink: 0; 
 }
 
-.rounded{
-    border-radius: 50%;
-    padding: 25px; 
-}
-
-.rounded-primary{
-    background: var(--accent-purple);
-     border-radius: 50%;
-    padding: 0.5em;
-}
-.rounded-secondary{
-    background: var(--yellow);
-     border-radius: 50%;
-    padding: 0.5em;
-}
-
-.rounded-blue{
-    background: var(--accent-blue);
-     border-radius: 50%;
-    padding: 0.5em;
-}
-
-
-/* .icon.rounded {
-    width: 100%;  
+.icon svg {
+    width: 100%;
     height: 100%;
-    max-width: 50px; 
-    max-height: 50px;
-    padding: 0;    
+}
+
+.rounded-primary,
+.rounded-secondary,
+.rounded-blue,
+.rounded-lightPurple {
+    width: 38px;
+    height: 38px;    
     border-radius: 50%;
-} */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+.rounded-primary {
+    background: var(--accent-purple);
+}
+
+.rounded-secondary {
+    background: var(--yellow);
+}
+
+.rounded-blue {
+    background: var(--accent-blue);
+}
+
+.rounded-lightPurple {
+    background: var(--purple-icon);
+}
+
+
+.btn-rounded-md {
+    padding: 4px 4px 4px 24px;
+}
+
+.btn-lg.btn-rounded-md {
+    padding: 4px 4px 4px 28px;
+}
+
+.btn-sm.btn-rounded-md {
+    padding: 4px 4px 4px 20px; 
+}
+
+
+.btn:hover {
+    opacity: 0.92;
+    transform: translateY(-1px);
+    transition: all 0.2s ease;
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+

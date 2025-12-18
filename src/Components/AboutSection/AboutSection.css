@@ -1,15 +1,19 @@
-@import url(../../themes/Global.css);
+/* @import url(../../themes/Global.css); */
 
 .about {
+  width: 100%;
+  max-width: 1903px;
   margin: 50px 0;
-}
-
-.about__container {
+  /* margin: 0 auto; */
   padding-left: var(--default-padding-left);
-  padding-right: var(--default-padding-rigth);
+  padding-right: var(--default-padding-right);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.about__container {
+    
 }
 
 /* .about__images,

@@ -29,12 +29,25 @@ export const Button = ({
             )}
 
             <span>{children}</span>
-
             {suffix && (
+                rounded ? (
+                    <span className={clsx(`rounded-${variant}`)}>
+                        <span className="icon">
+                            {suffix}
+                        </span>
+                    </span>
+                ) : (
+                    <span className="icon">
+                        {suffix}
+                    </span>
+                )
+            )}
+
+            {/* {suffix && (
                 <span className={clsx("icon", rounded && `rounded-${variant}`)}>
                     {suffix}
                 </span>
-            )}
+            )} */}
         </button>
     );
 };
